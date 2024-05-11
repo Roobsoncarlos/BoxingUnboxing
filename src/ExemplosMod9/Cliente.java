@@ -1,8 +1,10 @@
 package ExemplosMod9;
-
+/**
+ * @author Rob21
+ */
 public class Cliente {
 	
-	private Integer codigo;
+	private Long codigo;
 	
 	private Long codigoMaior=1204050l;
 	
@@ -18,9 +20,12 @@ public class Cliente {
 	
 	private Character letra = 'A';
 	
-	public static void main(String args[]) {
+	public void main(String args[]) {
 
 		this.codigo.byteValue();
 
+	}
+	public void teste() {
+		this.codigo = null;
 	}
 }
